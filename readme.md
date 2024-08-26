@@ -5,7 +5,7 @@ This project demonstrates how to set up a multi-tier web application infrastruct
 ## Project Structure
 
 ```plaintext
-multi-tier-app/
+Multi-Tier_Web_Application/
 ├── ansible/
 │   ├── playbooks/
 │   │   ├── webserver.yml
