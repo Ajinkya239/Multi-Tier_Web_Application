@@ -1,9 +1,9 @@
 [web]
-54.201.223.235 ansible_ssh_user=ec2-user
+<webhostIP> ansible_ssh_user=ec2-user
 
 [app]
-52.39.198.117 ansible_ssh_user=ec2-user
+<apphostIP> ansible_ssh_user=ec2-user
 
 [db]
-52.32.113.215 ansible_ssh_user=ec2-user
+<dbhostIP> ansible_ssh_user=ec2-user
 
