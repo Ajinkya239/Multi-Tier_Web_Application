@@ -8,16 +8,34 @@ This project demonstrates how to set up a multi-tier web application infrastruct
 Multi-Tier_Web_Application/
 ├── ansible/
 │   ├── playbooks/
-│   │   ├── webserver.yml
-│   │   ├── appserver.yml
-│   │   ├── dbserver.yml
-│   ├── roles/
-│       ├── webserver/
-│       ├── appserver/
-│       ├── dbserver/
+│       ├── webserver.yml
+│       ├── appserver.yml
+│       ├── dbserver.yml
+│       ├── roles/
+│         ├── webserver/
+│             ├── tasks
+│               ├── main.yml
+│         ├── appserver/
+│             ├── handlers
+│               ├── main.yml
+│             ├── tasks
+│               ├── main.yml
+│         ├── dbserver/
+│             ├── tasks
+│               ├── main.yml
 │   ├── inventory
+│       ├── hosts
+│   ├── roles
+│       ├── webserver
+│          ├── files
+│             ├── index.html 
 ├── terraform/
 │   ├── main.tf
 │   ├── variables.tf
 │   ├── outputs.tf
 │   ├── provider.tf
+├── app/
+│   ├── index.js
+│   ├── package.json
+│   ├── .env
+
